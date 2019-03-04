@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿
 //BHUPINDER SINGH
 //CO727639
 <!DOCTYPE html>
@@ -6,15 +6,35 @@
 <head>
     <meta charset="utf-8" />
     <title>CSD2214_6_WEEK07</title>
-    <script src="js/main.js"></script>
+    <script >
+        var addnumber = {
+            sum : 0,
+            starter :1109,
+            stopnumber : 11,
+            endnumber:119,
+
+            adder: function () {
+                for (counter = this.starter; counter > this.endnumber; counter -= this.stopnumber) {
+
+                    this.sum += counter;
+                                  }
+                return this.sum;
+            }
+
+        };
+        document.writeln("\n");
+        document.write("sum is:");
+        document.write(addnumber.adder());  
+    </script>
     <link href="css/default.css" rel="stylesheet" />
 </head>
 <body>
-    <div>here it is :</div>
-    <script src="js/main.js"></script>
-    <div>Sum OF NUMBERS IS </div>
+    
+    
+    
     <script>
-        document.write(total());
+
+        document.write(function());
     </script>
 
 </body>
